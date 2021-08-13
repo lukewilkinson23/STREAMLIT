@@ -15,7 +15,7 @@ with header:
 with dataset:
 	st.header("NYC taxi dataset")
 
-	taxi_data = pd.read_csv("data/taxi_data.csv")
+	taxi_data = pd.read_csv("taxi_data.csv")
 	st.write(taxi_data.head())
 
 	st.subheader("Pick-up location ID distribution on the NYC dataset")
